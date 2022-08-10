@@ -71,10 +71,10 @@ $(document).ready(function(){
           $('.menu-box').removeClass('active');
         }
     });
-
-  $(window).resize(function(){
-    wwt = $(window).width();
-    media();
-  });
+    $(window).resize(function(){
+      wwt = $(window).width();
+      wht = $(window).height();
+      layout();
+    });
 
 });
