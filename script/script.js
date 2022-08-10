@@ -15,15 +15,10 @@ $(document).ready(function(){
       if(ww >= 1500){
         var swiper = new Swiper(".mySwiper", {
           loop:true,
-          // initialSlide: 1,
           effect: 'coverflow',
-          //커버플로우 효과주기
           centeredSlides: true,
-          //슬라이드를 가운데로 지정하는 속성
           slidesPerView:'auto',
-          //꼭 보여지는 슬라이드 값을 자동으로 잡아줘야함
           slideToClickedSlide:true,
-          //슬라이드를 클릭해도 넘어갈것인지 여부 선택
           coverflowEffect:{
               rotate:50,
               stretch: 0,
