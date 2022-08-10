@@ -1,4 +1,44 @@
 @charset "utf-8";
+/* cursor */
+*{
+    cursor: none;
+    /* 마우스커서 없애기 */
+}
+html,body{
+    cursor: url(../image/cursor.svg), auto;
+}
+.theBall,
+.theBall-outer{
+    width: 20px;
+    height: 20px;
+    mix-blend-mode: exclusion;
+}
+.theBall-outer{
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    z-index: 99999;
+    pointer-events: none;
+}
+.theBall{
+    position: absolute;
+    background-color: #dbdbdb;
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform-origin: center center;
+    /* 트랜스폼 속성 시작점을 설정함 */
+}
+.theBall-outer.zoom .theBall{
+    border-radius: 50%;
+    transform: scale(2.5);
+}
+.theBall-outer.zoom2 .theBall{
+    border-radius: 50%;
+    transform: scale(5);
+}
+.theBall-outer.zoom3 .theBall{
+    transform: scaleY(2) scaleX(5);
+}
+
 #wrap{
     background-color: #F9F9F9;
     overflow-x: hidden;
