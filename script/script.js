@@ -72,10 +72,9 @@ $(document).ready(function(){
         }
     });
 
-
   $(window).resize(function(){
-     var ww = $(window).width();
-     var wh = $(window).height();
-     layout();
+    wwt = $(window).width();
+    media();
   });
+
 });
