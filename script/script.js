@@ -12,7 +12,7 @@ $(document).ready(function(){
     $(window).width(function(){
       const ww = $(window).width();
       console.log(ww);
-      if(ww >= 1500){
+      if(ww >= 1480){
         var swiper = new Swiper(".mySwiper", {
           loop:true,
           effect: 'coverflow',
