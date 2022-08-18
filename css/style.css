@@ -748,22 +748,6 @@ html,body{
 .txt-3 .txt-box{
     margin-bottom:10px ;
 }
-.slide-4{
-    width: 100%;
-    background: url(../img/repoint.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.slide-4:hover .con-4{
-    opacity: 1;
-}
-.txt-4 .logo{
-    width: 170px;
-}
-.txt-4 .txt-box{
-    margin-bottom:10px ;
-}
 
 .next{
     width: 85px !important;
