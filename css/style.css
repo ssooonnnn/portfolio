@@ -843,6 +843,8 @@ html,body{
 }
 .contact .copy span{
     font-size: 16px;
+    white-space: nowrap;
+
 }
 
 
