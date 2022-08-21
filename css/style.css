@@ -2,10 +2,6 @@
 /* cursor */
 *{
     cursor: none;
-    /* 마우스커서 없애기 */
-}
-html,body{
-    cursor: url(../image/cursor.svg), auto;
 }
 .theBall,
 .theBall-outer{
