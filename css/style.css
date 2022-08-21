@@ -1023,7 +1023,7 @@ html,body{
     margin-top: 5%;
 }
 .but{
-    float: right;
+    float: left;
     margin-right: 0;
 }
 .con-t .media svg path{
@@ -1039,6 +1039,6 @@ html,body{
     font-size: 20px;
 }
 .contact .call h3{
-    font-size: 32px;
+    font-size: 20px;
 }
 }/* end */
