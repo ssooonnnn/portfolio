@@ -595,7 +595,7 @@ html,body{
     margin-bottom: 16px;
 }
 .skill .program{
-    margin-right: 88px;
+    margin-right: 10%;
 }
 /* protflio */
 /* 스와이퍼 공통영역 */
@@ -967,8 +967,16 @@ html,body{
 
 }/* 1500 end */
 @media (max-width:500px) {
+.pro-wrap {
+    width: 100%;
+}
+.about h3 {
+    font-size: 24px;
+    margin: 84px 16px 0 16px;
+}
 .about-box{
     flex-wrap: wrap;
+    padding-bottom: 10%;
 }
 .about-box .txt-box{
     padding-top: 10%;
@@ -976,6 +984,17 @@ html,body{
 .about .txt-box .txt,.about .txt-box .skill{
     margin-left: 0;
 }
+.call-icon {
+    margin-right: 12px;
+}
+.call .txt {
+    width: 100%;
+    flex-direction: column;
+    align-items: normal;
+}
+.call .txt span:nth-child(2) {
+    display: none;
+}    
 .menu{
     display: inline-block;
     width: 100%;
